@@ -1,6 +1,6 @@
 export const alertCheck = async (amount:Number) => {
   if(amount === undefined) return false;
-  if (confirm("정말" + amount + "입니까?") == true){    //확인
+  if (confirm("정말 " + amount + "₩ 입니까?") == true){    //확인
     console.log(amount)
     saveData(amount)
   }else{   //취소
