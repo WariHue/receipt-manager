@@ -1,0 +1,45 @@
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.tokenColorCustomizations": {
+      "variables": "#4f8cff",
+      "numbers": "#ff6dda",
+      "textMateRules": [
+        {
+          "scope": "constant.language.boolean",
+          "settings": {
+            "foreground": "#89DDFF"
+          },
+        },
+        {
+          "scope": "variable.parameter",
+          "settings": {
+            "foreground": "#00ffd5",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "support.variable.property",
+          "settings": {
+            "foreground": "#aeffa7",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "support.variable.ts",
+          "settings": {
+            "foreground": "#ff98d8",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "support.variable.js",
+          "settings": {
+            "foreground": "#ff98d8",
+            "fontStyle": "bold"
+          }
+        },
+      ]
+    }
+  }
