@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "receipt-manager",
   "version": "1.0.0-dev",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/card": "^2.0.24",
+    "@prisma/client": "5.7.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
